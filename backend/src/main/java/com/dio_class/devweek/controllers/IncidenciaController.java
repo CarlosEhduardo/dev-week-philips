@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@RequestMapping("/")
 public class IncidenciaController {
     private final IncidenciaRepository repository;
 
