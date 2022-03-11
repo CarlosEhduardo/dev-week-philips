@@ -10,6 +10,7 @@ import { RegiaoService } from '../service/regiao.service';
 })
 export class OcorrenciasComponent implements OnInit {
 
+  
   regioes: Regiao[] = [];
 
   constructor(private regiaoService:RegiaoService) { }
