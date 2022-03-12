@@ -1,5 +1,5 @@
 export interface Regiao {
     id: number,
-    regiao: string;
-    total_exames: number
+    regiao: string,
+    qnt_exames: number
 }

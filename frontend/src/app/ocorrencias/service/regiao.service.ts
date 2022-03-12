@@ -11,7 +11,7 @@ export class RegiaoService {
   constructor(private http:HttpClient) { }
 
   listRegioes() : Observable<Regiao[]> { 
-    const url = '/assets/regioes.json';
+    const url = '/api/regioes';
     return this.http.get<Regiao[]>(url);
   }
 }
