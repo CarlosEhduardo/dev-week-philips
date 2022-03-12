@@ -23,7 +23,7 @@ public class RegiaoController {
         return repository.findAll();
     }
 
-    @GetMapping("/regiao/{id}")
+    @GetMapping("/regioes/{id}")
     public ResponseEntity<?> getRegiaoById(@PathVariable Long id) {
         Optional regiaoOptional = repository.findById(id);
         if (regiaoOptional.isPresent()) {
@@ -32,12 +32,12 @@ public class RegiaoController {
         return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
 
-    @PostMapping("/regiao/nova_regiao")
+    @PostMapping("/regioes/nova_regiao")
     public void postRegiao(@RequestBody Regiao regiao) {
         repository.save(regiao);
     }
 
-    @DeleteMapping("/regiao/delete/{id}")
+    @DeleteMapping("/regioes/delete/{id}")
     public void deleteRegiao(@PathVariable Long id) {
         repository.deleteById(id);
     }
