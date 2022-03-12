@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api")
 public class FaixaEtariaController {
     private final FaixaEtariaRepository repository;
 
