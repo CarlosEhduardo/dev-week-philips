@@ -11,7 +11,7 @@ em um Frontend baseado em Angular e Backend em Spring Boot usando o padrão MVC 
 ![alt text](/assets/tabelas.png?raw=true "Entidades")
 
 ## Tecnologias 
-Spring Boot, Spring Data, Spring JPA, API Rest, Angular, Angular Material, Node js, JavaScript, JavaScript, JSON e HTML
+Spring Boot, Spring Data, Spring JPA, API Rest, Angular, Angular Material, Node js, JavaScript, JSON e HTML
 
 ## Organização
 - **Dia 8 - Inicio**:
